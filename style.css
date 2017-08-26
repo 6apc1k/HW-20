@@ -1,0 +1,93 @@
+.container {
+    margin: 0 auto;
+    max-width: 325px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    text-align: center;
+    margin: 20px;
+}
+
+.cell {
+    position: relative;
+    display: inline-block;
+    padding: 3.5% 0;
+    width: 23%;
+    margin: 1px;
+    border-radius: 5px;
+    background-color: #4C8FDD;
+    border: 1px solid #4C8FDD;
+    color: white;
+    font-size: 5.8vh;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav {
+    margin-bottom: 23px;
+}
+
+img {
+    width: 25px;
+}
+
+button {
+    margin: 5px auto 10px auto; 
+    display: block;
+    text-align: center;
+    width: 83%;
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    outline-color: black;
+    border-radius: 5px;
+    border: 2px solid #4FE3C1;
+    font-size: 2.5vh;
+    color: #4FE3C1;
+    outline: none;
+}
+
+.newGame {
+    margin-top: 55px;
+}
+
+button:hover {
+    background-color: #4FE3C1;
+    color: #193d37;
+    outline: none;
+}
+
+.time, .steps {
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+.steps {
+    float: right;
+}
+
+.time span, .steps span {
+    margin-left: 10px;
+    font-size: 3.5vh;
+    color: #707070;
+    font-weight: bold;
+
+}
+
+p {
+    color: #B5B5B5;
+    font-size: 2.3vh;
+    font-weight: bold;
+}
+
+.blink{
+    animation:blink 500ms infinite alternate;
+}
+
+@keyframes blink {
+    from { opacity:1; }
+    to { opacity:0.3; }
+};
+
