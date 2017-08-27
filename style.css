@@ -51,12 +51,17 @@ button {
 
 .newGame {
     margin-top: 55px;
+    background-color: #4FE3C1;
+    color: #193d37;
 }
 
 button:hover {
-    background-color: #4FE3C1;
-    color: #193d37;
     outline: none;
+    opacity: 0.5;
+}
+
+.cell:hover {
+    border: 1px solid #356399;
 }
 
 .time, .steps {
